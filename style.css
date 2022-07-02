@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    /*margin-bottom: 0px;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding: 30px;*/
+width: 100%;
+    
+}
+main{
+    
+    margin-bottom: 0px;
+    margin-left: 220px;
+    margin-left: 220px;
+    margin-top: 100px;
+    max-width: 1000px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding: 30px;
+    
+}
+div{
+    display: block;
+}
+   
+
+
+.nav_bar{
+    display: flex;
+    padding: 0 15px;
+}
+.first{
+    justify-content: flex-start;
+    margin-right: auto;
+    width: 50%;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: auto;
+}
+.logo_text{
+    width: 256;
+    height: 75.0933;
+    fill: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+h1{
+    top: 30%;
+    left: 30%;
+  font-size: 70px;
+  line-height: 90px;
+  font-family: 'poppins' sans-serif;
+  background: linear-gradient(292.46deg,#27ae60 17.79%,#2f80ed 35.92%,#9b51e0 54.06%,#eb5757 71.08%,#f2994a 87.36%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  padding: auto;
+}
+
+h2{
+    font-size: 26px;
+line-height: 30px;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.second_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 26px; 
+    line-height: 30px;
+   
+    padding: 20px;
+}
+img{
+   display: flex;
+    width: 40%;
+    margin: auto;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    font-size: 1.2rem;
+    margin: auto;
+    padding: auto;
+}
+.first_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+.baby1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+width: 40%;
+margin: 30px;
+
+}
+.second_flex{
+    display: block;
+    width: 60%;
+    margin: 30px;
+}
+.share_code{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.share1{
+display: block;
+margin: 20px;
+height: 20%;
+width: 50%;
+}
+.share2{
+    display: block;
+    margin: 20px;
+    width: 50%;
+}
+.snippets{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.snippet1{
+    display: block;
+    margin: 20px;
+    height: 20%;
+    width: 50%;
+     
+}
+.snippet2{
+    display: block;
+    margin: 20px;
+    width: 50%;
+}
+.tutorial{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.tutorial1{
+    display: block;
+    margin: 20px;
+    height: 20%;
+    width: 50%;
+     
+}
+.tutorial2{
+    display: block;
+    margin: 20px;
+    width: 50%;
+}
+.markdown{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.markdown1{
+    display: block;
+    margin: 20px;
+    height: 20%;
+    width: 50%;
+     
+}
+.markdown2{
+    display: block;
+    margin: 20px;
+    width: 50%;
+}
+footer{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: rgb(33, 32, 32);
+    opacity: 0.9;
+}
+.blue button{
+     background-color:blue ;
+     padding: 5px;
+     color:white;
+}
+.login button{
+    padding: 5px;
+    color: white;
+    border: 20px;
+    margin: 5px;
+    background-color: black;
+
+}
+.zoom button{
+    padding: 5px;
+    color: white;
+    border: 20px;
+    margin: 5px;
+    background-color: black;
+
+}
