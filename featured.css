@@ -125,7 +125,7 @@ nav > img:hover {
 
 .login-button {
     display: flex;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 2px;
     padding: 0.7rem 1.5rem;
     margin-right: 2.5rem;
@@ -140,7 +140,7 @@ nav > img:hover {
     vertical-align: middle;
 }
 .search-button {
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 2px;
     padding: 0.9rem 1.8rem;
     margin-right: 1rem;
